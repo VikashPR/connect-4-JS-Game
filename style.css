@@ -10,22 +10,33 @@
     flex-direction: column;
 }
 .grid{
+    padding: 20px;
     display: flex;
+    justify-content:space-around;
     flex-wrap: wrap;
-    border: 10px solid rgb(128, 204, 77);
-    height: 240px;
-    width: 280px;
+    border: 10px solid rgb(35, 219, 189);
+    background:rgb(255, 255, 255);
+    border-radius:50px ;
+    height: 360px;
+    width: 380px;
 }
 .grid div{
+    border: 2px solid rgb(250, 225, 225);
+    margin:4px;
+    border-radius:50%;
     height: 40px;
     width: 40px;
-    /* background: #42b833; */
 }
 .player-one{
-    background: red;
-    border-radius: 10px;
+    border: none;
+    background: rgb(218, 8, 165);
+    border-radius: 50%;
 }
 .player-two{
-    background: blue ;
-    border-radius: 10px;
+    border: none;
+    background: rgb(13, 203, 236) ;
+    border-radius: 50%;
+}
+.bottom{
+    display: none;
 }
